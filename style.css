@@ -1,0 +1,31 @@
+#section-1 {
+  background-image: url("Music.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+#title {
+  font-size: 100px;
+  color: gold;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+iframe {
+  margin: 0 auto;
+  vertical-align: middle;
+  /* display: block; */
+  /* align-content: center; */
+}
